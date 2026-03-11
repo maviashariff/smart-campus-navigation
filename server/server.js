@@ -12,7 +12,13 @@ connectDB();
 const app = express();
 
 // Middleware
-app.use(cors());              // Allow cross-origin requests from React frontend
+app.use(cors({
+  origin: [
+    'http://localhost:3000',
+    'https://smart-campus-navigation-gamma.vercel.app'
+  ],
+  credentials: true,
+}));             // Allow cross-origin requests from React frontend
 app.use(express.json());      // Parse JSON request bodies
 
 // API Routes
