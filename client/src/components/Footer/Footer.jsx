@@ -8,7 +8,7 @@ function Footer() {
           Smart Campus Navigation — St. Philomena's College, Mysuru
         </p>
         <p className="footer-credit">
-          Developed by <span className="developer-name">Sheikh Jaan</span> | BCA Final Year Project © {new Date().getFullYear()}
+          Developed by <span className="developer-name"> Shaik Jan</span> | BCA Final Year Project © {new Date().getFullYear()}
         </p>
       </div>
     </footer>
